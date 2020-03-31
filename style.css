@@ -134,6 +134,10 @@ input{
   flex: 1;
 }
 
+input:focus{
+  outline: none;
+}
+
 .bouton_Recherche{
   width: 571px;
   height: 60px;
