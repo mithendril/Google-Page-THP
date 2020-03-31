@@ -1,0 +1,239 @@
+html{
+  height: 100%;
+}
+
+body{
+  font-family: arial;
+  margin: 0;
+}
+
+.page{
+  display: flex;
+  flex-direction: column;
+}
+
+.main_content{
+  flex: 1 
+}
+
+/* CSS de la navbar */
+#navbar{
+  display: flex;
+  justify-content: end;
+  padding-right: 25px;
+  margin-top: 18px;
+}
+
+.nav_item{
+  font-size: 13px;
+  padding-right: 15px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+}
+
+.nav_link{
+  color: rgba(0,0,0,0.87);
+  text-decoration: none;
+}
+
+.nav_link:hover{
+  text-decoration: underline;
+}
+
+.img_Menu{
+  opacity: 0.60;
+  max-width: 85%;
+  max-height: 85%;
+}
+
+.img_Menu:hover{
+  opacity: 0.85;
+}
+
+.menu{
+  height: 28px;
+  width: 28px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.connexion{
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #4285f4;
+  border: 1px solid #4285f4;
+  border-radius: 2px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* CSS du logo */
+#logo{
+  height: 233px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+img.logo{
+  height: 92px;
+  width: 272px;
+  margin: 30px;
+}
+
+/* CSS de la barre de recherche */
+#barre_Recherche{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.barre{
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  width: 584px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+}
+
+.barre:hover{
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+  border-color: rgba(223,225,229,0);
+}
+
+.loupe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  margin-left: 15px;
+  opacity: 0.40;
+}
+
+.texte{
+  font-family: Arial, Helvetica, sans-serif;
+  height: 30px;
+  margin:  10px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+input{
+  font-size: 16px;
+  border: none;
+  flex: 1;
+}
+
+.bouton_Recherche{
+  width: 571px;
+  height: 60px;
+  padding-top: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bouton{
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  font-size: 14px;
+  color: #5f6368;
+  padding: 0px 16px;
+  margin: 11px 6px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+}
+
+.bouton:hover{
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+/* CSS des gestes barrière */
+#gestes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  margin-top: 10px;
+}
+
+.gif_gestes{
+  margin-right: 10px;
+  width: 45px;
+}
+
+.lien_gestes{
+  text-decoration: none;
+}
+
+.lien_gestes:hover{
+  text-decoration: underline;
+}
+
+/* CSS de la footbar */
+#footbar{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.footbar_1{
+  border-top: 1px solid  #e4e4e4;
+  background-color: #f2f2f2;
+  height: 40px;
+  color: rgba(0,0,0,.54) ;
+  font-size: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.pays{
+  padding-left: 27px;
+}
+
+.footbar_2{
+  border-top: 1px solid  #e4e4e4;
+  background-color: #f2f2f2;
+  height: 40px;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.fin_footbar{
+  padding-right: 27px;
+  margin: 0;
+  text-decoration: none;
+  color: #5f6368;
+}
+
+.debut_footbar{
+  padding-left: 27px;
+  margin: 0;
+  text-decoration: none;
+  color: #5f6368;
+}
+
+.debut_footbar:hover{
+  text-decoration: underline;
+}
+
+.fin_footbar:hover{
+  text-decoration: underline;
+}
